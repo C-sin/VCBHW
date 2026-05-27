@@ -14,6 +14,7 @@
 #include "VCBHWView.h"
 
 #include "CParamDlg.h"
+#include "CPlayDlg.h" 
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -277,6 +278,8 @@ void CVCBHWView::OnSimSettings()
 void CVCBHWView::OnSimPlayvideo()
 {
 	// TODO: 在此添加命令处理程序代码
+	CPlayDlg dlg;
+	dlg.DoModal();
 }
 
 void CVCBHWView::OnTimer(UINT_PTR nIDEvent)

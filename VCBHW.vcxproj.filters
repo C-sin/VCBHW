@@ -57,6 +57,12 @@
     <ClInclude Include="CParamDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CPlayDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="COCX1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="VCBHW.cpp">
@@ -90,6 +96,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CParamDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="COCX1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

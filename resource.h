@@ -87,6 +87,7 @@
 #define IDS_EDIT_MENU                   306
 #define IDR_POPUP_MENU                  310
 #define IDD_DIALOG_SETTINGS             311
+#define IDD_DIALOG_PLAY                 313
 #define IDC_COMBO1                      1000
 #define IDC_RADIO1                      1001
 #define IDC_RADIO2                      1002
@@ -100,6 +101,9 @@
 #define IDC_BTN_START                   1010
 #define IDC_EDIT2                       1011
 #define IDC_EDIT4                       1013
+#define IDC_BUTTON1                     1014
+#define IDC_BUTTON2                     1015
+#define IDC_OCX1                        1016
 #define ID_32771                        32771
 #define ID_32772                        32772
 #define ID_SIM_SETTINGS                 32773
@@ -110,9 +114,9 @@
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        313
+#define _APS_NEXT_RESOURCE_VALUE        316
 #define _APS_NEXT_COMMAND_VALUE         32777
-#define _APS_NEXT_CONTROL_VALUE         1014
+#define _APS_NEXT_CONTROL_VALUE         1017
 #define _APS_NEXT_SYMED_VALUE           310
 #endif
 #endif
