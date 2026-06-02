@@ -304,7 +304,7 @@ void CVCBHWView::OnTimer(UINT_PTR nIDEvent)
 		m_omega += alpha * dt;
 		m_angle += m_omega * dt;
 
-		if (m_timeElapsed >= 4.0 || (fabs(m_angle) < 0.005 && fabs(m_omega) < 0.05)) // 10秒后自动停止
+		if (m_timeElapsed >= 10.0 || (fabs(m_angle) < 0.005 && fabs(m_omega) < 0.05)) // 10秒后自动停止
 		{
 			m_bIsRunning = false;
 			//KillTimer(1); // 停止定时器
